@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    background: #ffffff9a;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+header h3{
+    display: inline;
+    transition: .2s;
+    cursor: pointer;
+}
+header h3:hover{
+    text-shadow: 0px 0px 20px #90fcf4;
+}
+header h3>div{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    top: 0px;
+    right: -10px;
+}
+.scroll{
+    height: 40vh;
+    overflow:auto;
+    margin-left: 0;
+}
+header nav .div1:hover{
+    text-shadow: -1px 0px 3px black;
+}
+header nav .div5:hover{
+    text-shadow: -1px 0px 3px black;
+    
+}
+
+header nav .bord{
+    border: 1px solid #2bb6e0;
+}
+header nav .bord:focus{
+    box-shadow: 0px 0px 0 2px #2372974f;
+    border: 1px solid #98d8dd;
+}
+#myModal form .bord{
+    border: 1px solid #98dcdd;
+}
+#myModal form .bord:focus{
+    box-shadow: 0px 0px 0 2px #288ca74f;
+    border: 1px solid #98b5dd;
+}
+.sec1{
+    position: relative;
+}
+.sec1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.sec1 .content p{
+    position: absolute;
+    background: rgb(0, 195, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec1 .op{
+    background: #ffffffa3;
+}
+.starimage{
+    background-image: url('../images/ohana-4.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.starimage2{
+    background-image: url('../images/Tt6XuCDn-Upper_Pool_Area_at_Dusk-hme.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
